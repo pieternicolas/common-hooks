@@ -27,8 +27,7 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "react-router-dom": "^5.2.0"
+    "react": ">=16"
   },
   "husky": {
     "hooks": {
@@ -55,7 +54,8 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "query-string": "^6.13.1"
+    "query-string": "^6.13.1",
+    "react-router-dom": "^5.2.0"
   },
   "bugs": {
     "url": "https://github.com/pieternicolas/common-hooks/issues"
