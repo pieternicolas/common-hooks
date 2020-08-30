@@ -6,6 +6,10 @@
   },
   "version": "0.1.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pieternicolas/common-hooks"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
