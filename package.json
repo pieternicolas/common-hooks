@@ -24,6 +24,8 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
+    "@types/js-cookie": "^2.2.6",
+    "js-cookie": "^2.2.1",
     "react": ">=16",
     "react-router-dom": "^5.2.0"
   },
@@ -46,7 +48,6 @@
     "husky": "^4.2.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
     "tsdx": "^0.13.3",
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
