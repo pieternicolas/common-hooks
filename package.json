@@ -1,14 +1,14 @@
 {
   "name": "@pieternicolas/common-hooks",
-  "author": {
-    "name": "Nicolas Pieter",
-    "email": "nicolaspieter@yahoo.com"
-  },
+  "author": "Nicolas Pieter <nicolaspieter@yahoo.com>",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pieternicolas/common-hooks"
+    "url": "git+https://github.com/pieternicolas/common-hooks.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -56,5 +56,12 @@
   },
   "dependencies": {
     "query-string": "^6.13.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pieternicolas/common-hooks/issues"
+  },
+  "homepage": "https://github.com/pieternicolas/common-hooks#readme",
+  "directories": {
+    "test": "test"
   }
 }
