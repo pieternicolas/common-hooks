@@ -5,10 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pieternicolas/common-hooks.git"
-  },
-  "publishConfig": {
-    "access": "public"
+    "url": "https://github.com/pieternicolas/common-hooks"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -27,7 +24,8 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "react-router-dom": "^5.2.0"
   },
   "husky": {
     "hooks": {
@@ -54,14 +52,6 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "query-string": "^6.13.1",
-    "react-router-dom": "^5.2.0"
-  },
-  "bugs": {
-    "url": "https://github.com/pieternicolas/common-hooks/issues"
-  },
-  "homepage": "https://github.com/pieternicolas/common-hooks#readme",
-  "directories": {
-    "test": "test"
+    "query-string": "^6.13.1"
   }
 }
